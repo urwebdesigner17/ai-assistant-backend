@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ⬇️ Replace with your OpenRouter API Key
-const OPENROUTER_API_KEY=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
+const OPENROUTER_API_KEY=""
 
 app.post("/api/chat", async (req, res) => {
   const { prompt } = req.body;
